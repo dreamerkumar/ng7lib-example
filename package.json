@@ -7,7 +7,12 @@
     "build": "ng build",
     "test": "ng test --browsers ChromeHeadless --watch=false",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dreamerkumar/ng7lib-example.git"
   },
   "private": true,
   "dependencies": {
