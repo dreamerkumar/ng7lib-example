@@ -1,6 +1,6 @@
 {
   "name": "ng7lib",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "scripts": {
     "test": "ng test --browsers ChromeHeadless --watch=false",
     "lint": "ng lint",
@@ -8,7 +8,7 @@
     "release": "standard-version",
     "build-lib": "ng build ng7lib",
     "release-lib": "npm run release",
-    "publish-lib": "npm run test && npm run release && git push --follow-tags origin master && npm publish ../../dist/ng7lib"
+    "publish-lib": "npm run test && npm run release && build-lib && git push --follow-tags origin master && npm publish ../../dist/ng7lib"
   },
   "repository": {
     "type": "git",
