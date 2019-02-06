@@ -21,6 +21,11 @@
   "engines": {},
   "node": ">=v8.0.0",
   "private": false,
+  "author": "Vishal Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dreamerkumar/ng7lib-example/issues"
+  },
   "dependencies": {
     "@angular/animations": "~7.2.0",
     "@angular/common": "~7.2.0",
