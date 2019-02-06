@@ -134,6 +134,41 @@
           }
         }
       }
+    },
+    "ng7lib": {
+      "root": "projects/ng7lib",
+      "sourceRoot": "projects/ng7lib/src",
+      "projectType": "library",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ng7lib/tsconfig.lib.json",
+            "project": "projects/ng7lib/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ng7lib/src/test.ts",
+            "tsConfig": "projects/ng7lib/tsconfig.spec.json",
+            "karmaConfig": "projects/ng7lib/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ng7lib/tsconfig.lib.json",
+              "projects/ng7lib/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "ng7lib-example"
