@@ -1,6 +1,6 @@
 {
   "name": "ng7lib-example",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +9,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "release": "standard-version",
-    "build-lib": "ng build ng7lib"
+    "build-lib": "ng build ng7lib",
+    "release-lib": "npm run release"
   },
   "repository": {
     "type": "git",
