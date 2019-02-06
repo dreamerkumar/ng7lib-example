@@ -1,6 +1,6 @@
 {
   "name": "ng7lib",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "scripts": {
     "test": "ng test --browsers ChromeHeadless --watch=false",
     "lint": "ng lint",
@@ -26,9 +26,6 @@
   "bugs": {
     "url": "https://github.com/dreamerkumar/ng7lib-example/issues"
   },
-  "whitelistedNonPeerDependencies": [
-    "another-name-parser"
-  ],
   "dependencies": {
     "another-name-parser": "0.0.6"
   },
