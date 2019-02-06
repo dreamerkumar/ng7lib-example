@@ -1,6 +1,6 @@
 {
   "name": "ng7lib",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "scripts": {
     "test": "ng test --browsers ChromeHeadless --watch=false",
     "lint": "ng lint",
@@ -25,6 +25,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dreamerkumar/ng7lib-example/issues"
+  },
+  "dependencies": {
+    "another-name-parser": "0.0.6"
   },
   "peerDependencies": {
     "@angular/common": "^7.2.0",
