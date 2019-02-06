@@ -11,7 +11,7 @@
     "release": "standard-version",
     "build-lib": "ng build ng7lib",
     "release-lib": "npm run release",
-    "publish-lib": "npm run test && npm run release && git push --follow-tags origin master && npm publish dist/ng7lib"
+    "publish-lib": "npm run test && npm run release && git push --follow-tags origin master && npm publish dist/ng7lib" 
   },
   "repository": {
     "type": "git",
