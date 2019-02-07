@@ -7,6 +7,7 @@ import nameparser from 'another-name-parser';
     <p>
       ng7lib works! Value of name is {{name| json }}
     </p>
+    <div (click)="doLogin()"></div>
   `,
   styles: []
 })
