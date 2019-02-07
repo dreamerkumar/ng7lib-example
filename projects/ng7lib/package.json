@@ -1,6 +1,6 @@
 {
   "name": "ng7lib",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "scripts": {
     "test": "ng test --browsers ChromeHeadless --watch=false",
     "lint": "ng lint",
