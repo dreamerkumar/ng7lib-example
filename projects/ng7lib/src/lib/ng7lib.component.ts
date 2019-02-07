@@ -1,4 +1,4 @@
-import { SomeClass } from './shared/some.class';
+import { SomeClass } from './shared';
 import { Component, OnInit } from '@angular/core';
 // /todo import * as nameparser from 'another-name-parser';
 import nameparser from 'another-name-parser';
@@ -11,7 +11,6 @@ import nameparser from 'another-name-parser';
     <p>
       someValue is {{someValue}}
     </p>
-    <div (click)="doLogin()"></div>
   `,
   styles: []
 })
